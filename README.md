@@ -1,6 +1,6 @@
 # SMTShell
 
-This tool allows most Samsung devices to achieve a `system` shell (UID 1000). It was patched in OneUI 5.1, but will work on Android 13 running OneUI 5.0 or older. It should work as far back and Android 9.0 (and maybe earlier).
+This tool allows most Samsung devices to achieve a `system` shell (UID 1000). It should work as far back and Android 9.0 (and maybe earlier). New bypass was made available to get past One UI 5.1's patch but as of May 2023, new framework changes per AOSP, now prevent any type of downgrading past factory images.  
 
 It also acts similar to Magisk or SuperSU, allowing apps to easily execute `system` commands via [SMTShell-API](https://github.com/BLuFeNiX/SMTShell-API/).
 
